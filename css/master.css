@@ -1,0 +1,9 @@
+.img-content img{
+    height: 200px;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}

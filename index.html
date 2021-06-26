@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue-hello</title>
+    <link rel="stylesheet" href="./css/master.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+
+    <div id="app">
+        <h1>{{text}}</h1>
+        <input v-model="model" placeholder="Prego, inserire nome">
+        <br>
+        <span>Salve a te  {{model}}</span>
+
+        <div class="img-content">
+            <div class="classContent">
+                <button @click = "showElement()">Click me!</button>
+                <br>
+                <img v-bind:src="img" alt="">
+            </div>
+        </div>
+    
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
